@@ -1,0 +1,15 @@
+.container>img{
+    height: auto;
+    margin: 10px;
+    max-height: 450px;
+    object-fit: cover;
+
+    
+}
+
+.container{
+    width: clamp(250px, 80%, 1200px);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}

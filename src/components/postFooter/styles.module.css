@@ -1,0 +1,19 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container>div>p{
+    margin-left: 5px;
+    color: #484E4C;
+    font-family: 'DM Sans';
+}
+
+.container>div{
+    display: flex;
+    flex-direction: row;
+    user-select: none;
+    cursor: pointer;
+}

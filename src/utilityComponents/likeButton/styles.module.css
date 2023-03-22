@@ -1,0 +1,14 @@
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.container>img:first-child{
+    position: absolute;
+}

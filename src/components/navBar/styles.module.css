@@ -1,0 +1,71 @@
+.logoContainer {
+    background: linear-gradient(131.96deg, #96DCD0 -8.63%, #6CCEBD -5.56%, #2DB8A1 35.83%, #28A38F 89.48%, #208171 133.94%);
+    border-radius: 4px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navItems{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.navItem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.homeItem{
+    border-bottom: 2px solid #2DB8A1;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+.navItem>p{
+    color: #949796;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0;
+    margin-left: 5px;
+}
+
+.logoContainer>img{
+    width: 30px;
+}
+
+.navContainer{
+    display: flex;
+    flex-direction: row;
+    user-select: none;
+}
+
+.container{
+    width: 75%;
+    height: 60px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper{
+    flex:.2;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index:20;
+}
+
+.container>div:last-child{
+    height: 100%;
+}
